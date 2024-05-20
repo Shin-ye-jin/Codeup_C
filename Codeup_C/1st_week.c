@@ -2,7 +2,7 @@
 
 int main(void)
 {
-	printf("Codeup C\n");
+	printf("Codeup C\n"); // start
 
 	printf("Hello, World!\n"); // 1101
 
