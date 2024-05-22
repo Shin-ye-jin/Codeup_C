@@ -20,11 +20,30 @@
 
 // 기초2. 입출력문 및 연산자
 //
+//int main(void)
+//{
+//	int a;
+//	scanf_s("%d", &a);
+//	// printf("%d", a);  // 1110
+//
+//	// printf("%d%%", a); // 1111
+//
+//	return 0;
+//}
+
+//int main(void)
+//{
+//	int a, b;
+//	scanf_s("%d %d", &a, &b);
+//	printf("%d %d", a, b); // 1112
+//
+//	return 0;
+//}
+
 int main(void)
 {
-	int a;
-	scanf_s("%d", &a);
-	printf("%d", a);  // 1110
-
+	int a, b;
+	scanf_s("%d %d", &a, &b);
+	printf("%d %d", b, a); // 1113
 	return 0;
 }
