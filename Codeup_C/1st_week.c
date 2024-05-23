@@ -40,10 +40,37 @@
 //	return 0;
 //}
 
+//int main(void)
+//{
+//	int a, b;
+//	scanf_s("%d %d", &a, &b);
+//	printf("%d %d", b, a); // 1113
+//	return 0;
+//}
+
+//int main(void)
+//{
+//	int a, b;
+//	scanf_s("%d %d", &a, &b);
+//	printf("%d", a + b);
+//	return 0; // 1114
+//}
+
+//int main(void)
+//{
+//	long long int a, b;
+//	scanf_s("%lld %lld", &a, &b);
+//	printf("%lld", a + b); // 1115
+//	return 0;
+//}
+
 int main(void)
 {
 	int a, b;
 	scanf_s("%d %d", &a, &b);
-	printf("%d %d", b, a); // 1113
+	printf("%d+%d=%d\n", a, b, a + b);
+	printf("%d-%d=%d\n", a, b, a - b);
+	printf("%d*%d=%d\n", a, b, a * b);
+	printf("%d/%d=%d\n", a, b, a / b);  // 1116
 	return 0;
 }
