@@ -64,13 +64,38 @@
 //	return 0;
 //}
 
+//int main(void)
+//{
+//	int a, b;
+//	scanf_s("%d %d", &a, &b);
+//	printf("%d+%d=%d\n", a, b, a + b);
+//	printf("%d-%d=%d\n", a, b, a - b);
+//	printf("%d*%d=%d\n", a, b, a * b);
+//	printf("%d/%d=%d\n", a, b, a / b);  // 1116
+//	return 0;
+//}
+
+//int main(void)
+//{
+//	float a, b;
+//	scanf_s("%f %f", &a, &b);
+//	printf("%.2f", a * b); // 1117
+//	return 0;
+//}
+
+//int main(void)
+//{
+//	float a, b, w;
+//	scanf_s("%f %f", &a, &b);
+//	w = a * b / 2;
+//	printf("%.1f", w); // 1118
+//	return 0;
+//}
+
 int main(void)
 {
-	int a, b;
-	scanf_s("%d %d", &a, &b);
-	printf("%d+%d=%d\n", a, b, a + b);
-	printf("%d-%d=%d\n", a, b, a - b);
-	printf("%d*%d=%d\n", a, b, a * b);
-	printf("%d/%d=%d\n", a, b, a / b);  // 1116
+	int a;
+	scanf_s("%d", &a);
+	printf("%d", a * 24); // 1119
 	return 0;
 }
