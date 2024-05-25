@@ -92,10 +92,54 @@
 //	return 0;
 //}
 
+//int main(void)
+//{
+//	int a;
+//	scanf_s("%d", &a);
+//	printf("%d", a * 24); // 1119
+//	return 0;
+//}
+
+//int main(void)
+//{
+//	int a, b, c;
+//	float avg = 0;
+//	scanf_s("%d %d %d", &a, &b, &c);
+//	avg = (float)(a + b + c) / 3.0;
+//	printf("%.2f", avg); // 1120
+//	return 0;
+//}
+
+//int main(void)
+//{
+//	int a, b;
+//	scanf_s("%d %d", &a, &b);
+//	printf("%d", a % b); // 1121
+//	return 0;
+//}
+
+//int main(void)
+//{
+//	int a;
+//	scanf_s("%d", &a);
+//	printf("%d %d", a / 60, a % 60); // 1122
+//	return 0;
+//}
+
+//int main(void)
+//{
+//	int a;
+//	float f;
+//	scanf_s("%d", &a);
+//	f = (float) 9 / 5 * a + 32;
+//	printf("%.3f", f); // 1123
+//	return 0;
+//}
+
 int main(void)
 {
 	int a;
 	scanf_s("%d", &a);
-	printf("%d", a * 24); // 1119
+	printf("%o %X", a, a); // 1125
 	return 0;
 }
