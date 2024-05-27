@@ -136,10 +136,10 @@
 //	return 0;
 //}
 
-int main(void)
-{
-	int a;
-	scanf_s("%d", &a);
-	printf("%o %X", a, a); // 1125
-	return 0;
-}
+//int main(void)
+//{
+//	int a;
+//	scanf_s("%d", &a);
+//	printf("%o %X", a, a); // 1125
+//	return 0;
+//}
