@@ -49,10 +49,34 @@
 //	return 0;
 //}
 
-int main(void)
-{
-	int a, b;
-	scanf_s("%d %d", &a, &b);
-	printf("%d", a != b); // 1137
-	return 0;
-}
+//int main(void)
+//{
+//	int a, b;
+//	scanf_s("%d %d", &a, &b);
+//	printf("%d", a != b); // 1137
+//	return 0;
+//}
+
+//int main(void)
+//{
+//	int a;
+//	scanf_s("%d", &a);
+//	printf("%d", !a); //1138
+//	return 0;
+//}
+
+//int main(void)
+//{
+//	int a, b;
+//	scanf_s("%d %d", &a, &b);
+//	printf("%d", a && b); // 1139
+//	return 0;
+//}
+
+//int main(void)
+//{
+//	int a, b;
+//	scanf_s("%d %d", &a, &b);
+//	printf("%d", a || b); //1140
+//	return 0;
+//}
