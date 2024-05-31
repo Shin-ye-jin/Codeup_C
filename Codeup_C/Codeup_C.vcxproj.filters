@@ -21,13 +21,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="2st_week.c">
+    <ClCompile Include="02_01.c">
       <Filter>소스 파일\2st_week</Filter>
     </ClCompile>
-    <ClCompile Include="2st_week_1.c">
+    <ClCompile Include="02_02.c">
       <Filter>소스 파일\2st_week</Filter>
     </ClCompile>
-    <ClCompile Include="1st_week.c">
+    <ClCompile Include="01_01.c">
       <Filter>소스 파일\1st_week</Filter>
     </ClCompile>
   </ItemGroup>

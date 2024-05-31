@@ -127,9 +127,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="1st_week.c" />
-    <ClCompile Include="2st_week.c" />
-    <ClCompile Include="2st_week_1.c" />
+    <ClCompile Include="01_01.c" />
+    <ClCompile Include="02_01.c" />
+    <ClCompile Include="02_02.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
