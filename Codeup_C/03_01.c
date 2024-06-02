@@ -58,13 +58,13 @@
 //	return 0; // 1155 7ÀÇ ¹è¼ö
 //}
 
-int main(void)
-{
-	int a;
-	scanf_s("%d", &a);
-	if (a % 2 == 0)
-		printf("even");
-	else
-		printf("odd");
-	return 0; // 1156 È¦¼ö Â¦¼ö ±¸º°
-}
+//int main(void)
+//{
+//	int a;
+//	scanf_s("%d", &a);
+//	if (a % 2 == 0)
+//		printf("even");
+//	else
+//		printf("odd");
+//	return 0; // 1156 È¦¼ö Â¦¼ö ±¸º°
+//}
