@@ -132,6 +132,7 @@
     <ClCompile Include="02_02.c" />
     <ClCompile Include="03_01.c" />
     <ClCompile Include="03_02.c" />
+    <ClCompile Include="03_03.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
