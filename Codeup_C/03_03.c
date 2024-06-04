@@ -71,11 +71,11 @@
 //	return 0; // 터널 통과하기 1
 //}
 
-int main(void)
-{
-	int time, count;
-	scanf_s("%d %d", &time, &count);
-
-	printf("%d", (89 - time) / 5 + 1 + count);
-	return 0; // 1165 축구의 신 1
-}
+//int main(void)
+//{
+//	int time, count;
+//	scanf_s("%d %d", &time, &count);
+//
+//	printf("%d", (89 - time) / 5 + 1 + count);
+//	return 0; // 1165 축구의 신 1
+//}
