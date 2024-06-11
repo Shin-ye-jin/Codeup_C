@@ -44,26 +44,26 @@
 //	return 0; // 1210 칼로리 계산하기
 //}
 
-int main(void)
-{
-	int a, b, c;
-	scanf_s("%d %d %d", &a, &b, &c);
-
-	if (a >= b && a >= c)
-		if (a < b + c)
-			printf("yes");
-		else
-			printf("no");
-	else if (b >= a && b >= c)
-		if (b < a + c)
-			printf("yes");
-		else
-			printf("no");
-	else if (c >= a && c >= b)
-		if (c < a + b)
-			printf("yes");
-		else
-			printf("no");
-
-	return 0; // 1212 삼각형의 성립 조건
-}
+//int main(void)
+//{
+//	int a, b, c;
+//	scanf_s("%d %d %d", &a, &b, &c);
+//
+//	if (a >= b && a >= c)
+//		if (a < b + c)
+//			printf("yes");
+//		else
+//			printf("no");
+//	else if (b >= a && b >= c)
+//		if (b < a + c)
+//			printf("yes");
+//		else
+//			printf("no");
+//	else if (c >= a && c >= b)
+//		if (c < a + b)
+//			printf("yes");
+//		else
+//			printf("no");
+//
+//	return 0; // 1212 삼각형의 성립 조건
+//}
