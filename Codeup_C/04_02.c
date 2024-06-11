@@ -31,3 +31,22 @@
 //
 //	return 0; // 1216 컨설팅 회사
 //}
+
+//int main(void)
+//{
+//	int a, b, c;
+//	scanf_s("%d %d %d", &a, &b, &c);
+//
+//	if (a + b <= c)
+//		printf("삼각형아님");
+//	else if (a == b && b==c && c==a)
+//		printf("정삼각형");
+//	else if (a == b || b == c || a == c)
+//		printf("이등변삼각형");
+//	else if (a * a + b * b == c * c)
+//		printf("직각삼각형");
+//	else
+//		printf("삼각형");
+//
+//	return 0; // 1218 삼각형 판단하기
+//}
