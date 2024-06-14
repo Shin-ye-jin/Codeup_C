@@ -63,5 +63,8 @@
     <ClCompile Include="04_03.c">
       <Filter>소스 파일\4st_week</Filter>
     </ClCompile>
+    <ClCompile Include="04_04.c">
+      <Filter>소스 파일\4st_week</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
