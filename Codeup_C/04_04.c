@@ -69,3 +69,40 @@
 //		printf("*");
 //	return 0; // 1256 별 출력하기
 //}
+
+//int main(void)
+//{
+//	int a, b, i;
+//	scanf("%d %d", &a, &b);
+//	for (i = a; i <= b; i++) {
+//		if (i % 2 == 1)
+//			printf("%d ", i);
+//	}
+//	return 0; // 1257 두 수 사이의 홀수 출력하기
+//}
+
+//int main(void)
+//{
+//	int i, n,sum=0;
+//	scanf("%d", &n);
+//	
+//	for (i = 1; i <= n; i++)
+//		sum += i;
+//	printf("%d", sum);
+//	
+//	return 0; //1258 1부터 n까지 합 구하기
+//}
+
+//int main(void)
+//{
+//	int i, n, sum = 0;
+//	scanf("%d", &n);
+//
+//	for (i = 1; i <= n; i++) {
+//		if (i % 2 == 0)
+//			sum += i;
+//	}
+//	printf("%d", sum);
+//	
+//	return 0; // 1259 1부터 n까지 중 짝수의 합 구하기
+//}
