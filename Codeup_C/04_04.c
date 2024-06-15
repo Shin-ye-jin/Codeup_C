@@ -41,3 +41,31 @@
 //
 //	return 0; // 1253 a부터 b까지 출력하기
 //}
+
+//int main(void)
+//{
+//	char a, b, i;
+//	scanf("%c %c", &a, &b);
+//
+//	for (i = a; i <= b; i++)
+//		printf("%c ", i);
+//	return 0; // 1254 알파벳 출력하기
+//}
+
+//int main(void)
+//{
+//	double a, b, i;
+//	scanf("%lf %lf", &a, &b);
+//	for (i = a; i <= b; i += 0.01)
+//		printf("%.2lf ", i);
+//	return 0; // 1255 두 실수 사이 출력하기 - double 사용
+//}
+
+//int main(void)
+//{
+//	int i, a;
+//	scanf("%d", &a);
+//	for (i = 0; i < a; i++)
+//		printf("*");
+//	return 0; // 1256 별 출력하기
+//}
