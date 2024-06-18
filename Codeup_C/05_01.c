@@ -42,4 +42,45 @@
 //	return 0; // 1265 구구단 출력하기 1
 //}
 
-// 1266 n개의 수의 합
+//int main(void)
+//{
+//	int n, num, sum = 0,i;
+//	scanf("%d", &n);
+//
+//	for (i = 0; i < n; i++) {
+//		scanf("%d", &num);
+//		sum += num;
+//	}
+//	printf("%d", sum);
+//	return 0; // 1266 n개의 수의 합
+//}
+
+//int main(void)
+//{
+//	int n, num, sum = 0, i;
+//	scanf("%d", &n);
+//	for (i = 0; i < n; i++) {
+//		scanf("%d", &num);
+//		if (num % 5 == 0) {
+//			sum += num;
+//		}
+//	}
+//	printf("%d", sum);
+//	return 0; // n개의 수 중 5의 배수의 합
+//}
+
+//int main(void)
+//{
+//	int n, num, count = 0, i;
+//	scanf("%d", &n);
+//
+//	for (i = 0; i < n; i++) {
+//		scanf("%d", &num);
+//		if (num % 2 == 1) {
+//			count++;
+//		}
+//	}
+//	printf("%d", count);
+//	return 0; // 1268 n개의 수 중 홀수의 개수
+//}
+
