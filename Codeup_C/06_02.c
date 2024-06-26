@@ -42,3 +42,60 @@
 //	}
 //	return 0; // 1353 삼각형 출력하기 1
 //}
+
+//int main(void)
+//{
+//	int n, i, j;
+//	scanf("%d", &n);
+//
+//	for (i = n; i > 0; i--) {
+//		for (j = 0; j < i; j++) {
+//			printf("*");
+//		}
+//		printf("\n");
+//	}
+//	return 0; // 1354 삼각형 출력하기 2
+//}
+
+//int main(void)
+//{
+//	int n, i, j;
+//	scanf("%d", &n);
+//
+//	for (i = n; i > 0; i--) {
+//		for (j = 0; j < n - i; j++) {
+//			printf(" ");
+//		}
+//		for (j = 0; j < i; j++) {
+//			printf("*");
+//		}
+//		printf("\n");
+//	}
+//	return 0; // 1355 삼각형 출력하기 3
+//}
+
+//int main(void)
+//{
+//	int n, i, j;
+//	scanf("%d", &n);
+//
+//	for (i = 1; i <= n; i++) {
+//		if (i == 1 || i == n) {
+//			for (j = 0; j < n; j++) {
+//				printf("*");
+//			}
+//		}
+//		else {
+//			for (j = 1; j <= n; j++) {
+//				if (j == 1 || j == n) {
+//					printf("*");
+//				}
+//				else {
+//					printf(" ");
+//				}
+//			}
+//		}
+//		printf("\n");
+//	}
+//	return 0; // 1356 사각형 출력하기 2
+//}
