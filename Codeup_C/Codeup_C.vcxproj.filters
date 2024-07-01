@@ -31,6 +31,9 @@
     <Filter Include="소스 파일\6st_week">
       <UniqueIdentifier>{144871eb-8753-4980-a851-02c66db51437}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\7st_week">
+      <UniqueIdentifier>{e5ddb7dd-259d-4582-81e4-f0f786c426b6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="02_01.c">
@@ -98,6 +101,9 @@
     </ClCompile>
     <ClCompile Include="06_05.c">
       <Filter>소스 파일\6st_week</Filter>
+    </ClCompile>
+    <ClCompile Include="07_01.c">
+      <Filter>소스 파일\7st_week</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
