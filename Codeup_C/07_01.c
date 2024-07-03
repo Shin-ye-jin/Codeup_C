@@ -61,3 +61,73 @@
 //	}
 //	return 0; // 1380 두 주사위의 합
 //}
+
+//int main(void)
+//{
+//	int i, j;
+//	
+//	for (i = 1; i < 10;i++) {
+//		for (j = 2; j < 6; j++) {
+//			printf("%d x %d = %2d ", j, i, i * j);
+//		}
+//		printf("\n");
+//	}
+//	return 0; // 1382 GuguClass
+//}
+
+//int main(void)
+//{
+//	int n, m, i, j;
+//	scanf("%d %d", &m, &n);
+//
+//	for (i = 0; i < n; i++) {
+//		for (j = 0; j < m; j++) {
+//			if (i == 0 || i == n - 1) {
+//				if (j == 0 || j == m - 1) {
+//					printf("+");
+//				}
+//				else {
+//					printf("-");
+//				}
+//			}
+//			else {
+//				if (j == 0 || j == m - 1) {
+//					printf("|");
+//				}
+//				else {
+//					printf(" ");
+//				}
+//			}
+//		}
+//		printf("\n");
+//	}
+//	return 0; // 1677 종이 자르기
+//}
+
+//int main(void)
+//{
+//	int n, i, j;
+//	scanf("%d", &n);
+//
+//	for (i = 1; i <= n*2; i+=2) {
+//		for (j = i; j < n*2-1; j+=2) {
+//			printf(" ");
+//		}
+//		for (j = 0; j < i; j++) {
+//			printf("*");
+//		}
+//		printf("\n");
+//	}
+//	
+//	for (i = 1; i < n; i++) {
+//		for (j = 0; j < i; j++) {
+//			printf(" ");
+//		}
+//		for (j = n * 2 - 1; j > i*2; j--) {
+//			printf("*");
+//		}
+//		printf("\n");
+//	}
+//
+//	return 0; // 3122 마름모 출력하기 2
+//}
