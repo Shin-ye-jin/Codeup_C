@@ -130,7 +130,7 @@
       <Filter>소스 파일\8st_week</Filter>
     </ClCompile>
     <ClCompile Include="08_04.c">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\8st_week</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
