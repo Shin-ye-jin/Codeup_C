@@ -1,6 +1,5 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
-#include<string.h>
 
 //int main() {
 //    int n, i, j, count = 0;
@@ -61,4 +60,3 @@ int main() {
     }
     return 0; // 1471 [기초-배열연습] 2차원 배열 지그재그 채우기 2-4
 }
-
