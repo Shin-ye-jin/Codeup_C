@@ -153,5 +153,8 @@
     <ClCompile Include="09_04.c">
       <Filter>소스 파일\9st_week</Filter>
     </ClCompile>
+    <ClCompile Include="09_05.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
