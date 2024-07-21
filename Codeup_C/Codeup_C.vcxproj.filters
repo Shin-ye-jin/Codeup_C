@@ -159,7 +159,7 @@
     <ClCompile Include="09_06.c">
       <Filter>소스 파일\9st_week</Filter>
     </ClCompile>
-    <ClCompile Include="09_07.c">
+    <ClCompile Include="09_07%281488-1490%29.c">
       <Filter>소스 파일\9st_week</Filter>
     </ClCompile>
   </ItemGroup>
