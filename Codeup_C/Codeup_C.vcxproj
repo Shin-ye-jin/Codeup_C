@@ -166,6 +166,7 @@
     <ClCompile Include="09_04.c" />
     <ClCompile Include="09_05.c" />
     <ClCompile Include="09_06.c" />
+    <ClCompile Include="09_07.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
