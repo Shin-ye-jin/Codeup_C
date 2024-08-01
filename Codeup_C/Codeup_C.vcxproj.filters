@@ -192,5 +192,8 @@
     <ClCompile Include="11_03%281441-1443%29.c">
       <Filter>소스 파일\11st_week</Filter>
     </ClCompile>
+    <ClCompile Include="11_04%281451,1452,1709%29.c">
+      <Filter>소스 파일\11st_week</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

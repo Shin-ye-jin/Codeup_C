@@ -2,8 +2,8 @@
 #include<stdio.h>
 #include<string.h>
 
-int a[10001];
-int n, i, j, temp, min, key;
+//int a[10001];
+//int n, i, j, temp, min, key;
 
 //int main(void)
 //{
