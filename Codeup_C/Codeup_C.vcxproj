@@ -179,6 +179,7 @@
     <ClCompile Include="11_05%283004,3011,3014%29.c" />
     <ClCompile Include="11_06.c" />
     <ClCompile Include="11_07%281526-1528%29.c" />
+    <ClCompile Include="12_01.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
