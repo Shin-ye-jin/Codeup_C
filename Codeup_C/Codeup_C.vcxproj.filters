@@ -219,5 +219,8 @@
     <ClCompile Include="12_04%281544-1546%29.c">
       <Filter>소스 파일\12st_week</Filter>
     </ClCompile>
+    <ClCompile Include="12_05.c">
+      <Filter>소스 파일\12st_week</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
