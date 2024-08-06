@@ -2,7 +2,7 @@
 #include<stdio.h>
 #include<string.h>
 
-int n;
+// int n;
 
 //void f(int num)
 //{
