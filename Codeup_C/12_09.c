@@ -69,3 +69,86 @@
 //	printf("%lld\n", subsetsum(a, b));
 //	return 0; // 1567 [기초-함수작성] 함수로 배열의 부분합 리턴하기
 //}
+
+//int n, a, b, d[1010];
+//
+//int maxi(int a, int b) {
+//	int max = d[a], number = a, i;
+//
+//	for (i = a; i <= b; i++)
+//		if (max < d[i]) {
+//			max = d[i];
+//			number = i;
+//		}
+//	return number;
+//}
+//
+//int main()
+//{
+//	scanf("%d", &n);
+//
+//	for (int i = 1; i <= n; i++)
+//		scanf("%d", &d[i]);
+//
+//	scanf("%d%d", &a, &b);
+//
+//	printf("%d\n", maxi(a, b));
+//
+//	return 0; // 1568 [기초-함수작성] 함수로 배열의 최대값 위치 리턴하기
+//}
+
+//int n, k, d[1010];
+//
+//int findi(int k)
+//{
+//	int i;
+//
+//	for (i = 1; i <= n; i++) {
+//		if (d[i] == k)
+//			
+//			return i;
+//	}
+//
+//	return -1;
+//}
+//
+//int main()
+//{
+//	scanf("%d", &n);
+//
+//	for (int i = 1; i <= n; i++)
+//		scanf("%d", &d[i]);
+//
+//	scanf("%d", &k);
+//
+//	printf("%d\n", findi(k));
+//
+//	return 0; // 1569 [기초-함수작성] 함수로 배열의 최대값 위치 리턴하기 2
+//}
+
+//int n, k, d[1010];
+//
+//int lower_bound(int k)
+//{
+//	int i;
+//
+//	for (i = 1; i <= n; i++) {
+//		if (d[i] >= k)
+//			return i;
+//	}
+//	return n + 1;
+//}
+//
+//int main()
+//{
+//	scanf("%d", &n);
+//
+//	for (int i = 1; i <= n; i++)
+//		scanf("%d", &d[i]);
+//
+//	scanf("%d", &k);
+//
+//	printf("%d\n", lower_bound(k));
+//
+//	return 0; // 1570 [기초-함수작성] 함수로 Lower Bound 위치 리턴하기
+//}
