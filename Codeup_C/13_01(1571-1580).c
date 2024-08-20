@@ -54,3 +54,48 @@
 //	printf("%d", myabs(a));
 //	// 1577 (함수 작성) 절댓값 함수 1
 //}
+
+//int mymax(int a, int b)
+//{
+//	if (a < b)
+//		return b;
+//	else
+//		return a;
+//}
+//
+//main()
+//{
+//	int a, b;
+//	scanf("%d %d", &a, &b);
+//	printf("%d", mymax(a, b));
+//	// 1578 (함수 작성) 최댓값 함수
+//}
+
+//int mymin(int a, int b)
+//{
+//	if (a < b)
+//		return a;
+//	else
+//		return b;
+//}
+//
+//main()
+//{
+//	int a, b;
+//	scanf("%d %d", &a, &b);
+//	printf("%d", mymin(a, b));
+//	// 1579 (함수 작성) 최솟값 함수
+//}
+
+//float circle(int r)
+//{
+//	return r * r * 3.14;
+//}
+//
+//main()
+//{
+//	int r;
+//	scanf("%d", &r);
+//	printf("%.2f", circle(r));
+//	// 1580 (함수 작성) 원의 넓이
+//}
