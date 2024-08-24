@@ -243,7 +243,7 @@
     <ClCompile Include="13_02%281581,1602,1610%29.c">
       <Filter>소스 파일\13st_week</Filter>
     </ClCompile>
-    <ClCompile Include="13_03.c">
+    <ClCompile Include="13_03%281615,1620%29.c">
       <Filter>소스 파일\13st_week</Filter>
     </ClCompile>
   </ItemGroup>
