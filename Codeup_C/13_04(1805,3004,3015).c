@@ -63,3 +63,41 @@
 //
 //	return 0; // 3015 성적표 출력
 //}
+
+//typedef struct student
+//{
+//	char name[10];
+//	int score1;
+//	int score2;
+//	int score3;
+//	int num1;
+//	int num2;
+//}STUDENT;
+//
+//int main(void)
+//{
+//	int i, j, n;
+//	STUDENT student[100]; // 구조체 선언
+//
+//	scanf("%d %d", &n); 
+//
+//	for (i = 0; i < n; i++){
+//		scanf("%s %d %d %d", student[i].name, &student[i].score1, &student[i].score2, &student[i].score3);
+//	}
+//
+//	for (i = 0; i < n - 1; i++)
+//	{
+//		for (j = i + 1; j < n; j++)
+//		{
+//			if (student[i].score1 < student[j].score1){
+//				STUDENT temp = student[i];
+//				student[i] = student[j];
+//				student[j] = temp;
+//			}
+//		}
+//	}
+//
+//	printf("%s\n", student[0].name);
+//
+//	return 0; // 3016 1등한 학생의 성적
+//}
