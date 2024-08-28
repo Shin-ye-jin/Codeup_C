@@ -258,5 +258,8 @@
     <ClCompile Include="14_01.c">
       <Filter>소스 파일\14st_week</Filter>
     </ClCompile>
+    <ClCompile Include="14_02.c">
+      <Filter>소스 파일\14st_week</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
