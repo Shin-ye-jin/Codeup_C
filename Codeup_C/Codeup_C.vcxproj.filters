@@ -255,10 +255,10 @@
     <ClCompile Include="13_05.c">
       <Filter>소스 파일\13st_week</Filter>
     </ClCompile>
-    <ClCompile Include="14_01.c">
+    <ClCompile Include="14_01%28재귀함수1%29.c">
       <Filter>소스 파일\14st_week</Filter>
     </ClCompile>
-    <ClCompile Include="14_02.c">
+    <ClCompile Include="14_02%28재귀함수%29.c">
       <Filter>소스 파일\14st_week</Filter>
     </ClCompile>
   </ItemGroup>
