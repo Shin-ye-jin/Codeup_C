@@ -56,3 +56,34 @@
 //	return 0; // 2834 [상태 정의를 통한 탐색] 계단 오르기 3-1
 //}
 
+//int f(int n, int k, int r)
+//{
+//	if (n != 0 && k == 0) return 0;
+//	else if (n == 0 && k != 0) return 0;
+//	else if (n == 0 && k == 0) return 1;
+//	else if (r == 3) {
+//		return f(n - 1, k - 1, 0) + f(n - 2, k - 1, 1) + f(n - 3, k - 1, 2);
+//	}
+//	else if (r == 0) {
+//		return f(n - 2, k - 1, 1) + f(n - 3, k - 1, 2);
+//	}
+//	else if (r == 1) {
+//		return f(n - 1, k - 1, 0) + f(n - 3, k - 1, 2);
+//	}
+//	else if (r == 2) {
+//		return f(n - 1, k - 1, 0) + f(n - 2, k - 1, 1);
+//	}
+//}
+//
+//int main(void)
+//{
+//	int n, k, sum = 0, i;
+//	scanf("%d %d", &n, &k);
+//
+//	for (i = 0; i <= k - 1; i++) {
+//		sum += f(n, i, 3);
+//	}
+//
+//	printf("%d", sum);
+//  return 0; // 2835 [상태 정의를 통하 탐색] 계단 오르기 4-1
+//}
