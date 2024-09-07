@@ -51,3 +51,33 @@
 //	printf("%d", result);
 //	return 0; // 2653 규칙에 맞는 이진수 만들가 (Small)
 //}
+
+//long long int f(long long int n) {
+//
+//	if (n<= 1) return 1; 
+//	else {
+//		return n * f(n - 1);
+//	}
+//}
+//
+//int main(void)
+//{
+//	long long int n, k,i,tmp, res1, res2, result;
+//	scanf("%lld %lld", &n, &k);
+//
+//	tmp = n - k;
+//
+//	if (k == 1) {
+//		res1 = f(tmp + 1) / (f(k) * f(tmp + 1 - k));
+//		printf("%lld", res1);
+//	}
+//	else {
+//		result = f(n) / (f(k) * f(n - k));
+//		res1 = f(tmp + 1) / (f(k) * f(tmp + 1 - k));
+//		res2 = f(tmp) / ((f(k) * f(tmp - k)));
+//		printf("%lld", res1 + res2);
+//	}
+//	
+//
+//	return 0; // 2657 극장 좌석 배치 3 - 다시...
+//}
