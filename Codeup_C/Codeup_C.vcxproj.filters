@@ -285,5 +285,8 @@
     <ClCompile Include="15_04%282833-35%29.c">
       <Filter>소스 파일\15st_week</Filter>
     </ClCompile>
+    <ClCompile Include="15_05%282836,3002,3009%29.c">
+      <Filter>소스 파일\15st_week</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
