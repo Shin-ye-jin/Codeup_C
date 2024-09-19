@@ -86,14 +86,14 @@
 //    return 0; // 2634 : °Å½º¸§µ· ||
 //}
 
-int cnt = 0;
-
-void hanoi(int n, char from, char tmp, char to) {
-    if (n == 1) {
-        cnt += 1;
-        printf("1 : %c->%c\n", from, tmp);
-        cnt += 1;
-        printf("1 : %c->%c\n", tmp, to);
+//int cnt = 0;
+//
+//void hanoi(int n, char from, char tmp, char to) {
+//    if (n == 1) {
+//        cnt += 1;
+//        printf("1 : %c->%c\n", from, tmp);
+//        cnt += 1;
+//        printf("1 : %c->%c\n", tmp, to);
 //    }
 //    else {
 //        hanoi(n - 1, from, tmp, to);
