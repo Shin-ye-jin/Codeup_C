@@ -62,3 +62,44 @@
 //	printf("%d", re);
 //	return 0; // 4016 세 수의 최대공약수 구하기
 //}
+
+//int main(void)
+//{
+//	int num[7];
+//	int i,sum=0,cnt=0;
+//
+//	for (i = 0; i < 7; i++) {
+//		scanf("%d", &num[i]);
+//		if (num[i] % 2 == 1) {
+//			cnt++;
+//			sum += num[i];
+//		}
+//	}
+//
+//	if (cnt == 0) printf("-1");
+//	else printf("%d", sum);
+//	return 0;
+//}
+
+//int main(void)
+//{
+//	int num[5];
+//	int i, j, mid, temp;
+//
+//	for (i = 0; i < 5; i++) {
+//		scanf("%d", &num[i]);
+//	}
+//
+//	for (i = 0; i < 4; i++) {
+//		for (j = 0; j < 4-i; j++) {
+//			if (num[j] > num[j + 1]) {
+//				temp = num[j];
+//				num[j] = num[j + 1];
+//				num[j + 1] = temp;
+//			}
+//		}
+//	}
+//
+//	printf("%d", num[2]);
+//	return 0; // 4026 중앙 값
+//}
