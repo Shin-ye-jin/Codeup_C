@@ -78,7 +78,7 @@
 //
 //	if (cnt == 0) printf("-1");
 //	else printf("%d", sum);
-//	return 0;
+//	return 0; // 4021 홀수의 합 구하기
 //}
 
 //int main(void)
@@ -102,4 +102,63 @@
 //
 //	printf("%d", num[2]);
 //	return 0; // 4026 중앙 값
+//}
+
+//int main(void)
+//{
+//	int num[7];
+//	int re[7] = { 0 };
+//	int te[7] = { 0 };
+//	int i, j, z = 0,t=0, max, temp;
+//
+//	for (i = 0; i < 7; i++) {
+//		scanf("%d", &num[i]);
+//		if (num[i] % 2 == 1) {
+//			re[z] = num[i];
+//			z++;
+//		}
+//		else {
+//			te[t] = num[i];
+//			t++;
+//		}
+//	}
+//
+//	for (i = 0; i < z - 1; i++) {
+//		for (j = 0; j < z - 1 - i; j++) {
+//			if (re[j] > re[j + 1]) {
+//				temp = re[j];
+//				re[j] = re[j + 1];
+//				re[j + 1] = temp;
+//			}
+//		}
+//	}
+//
+//	for (i = 0; i < t - 1; i++) {
+//		for (j = 0; j < t - 1 - i; j++) {
+//			if (te[j] > te[j + 1]) {
+//				temp = te[j];
+//				te[j] = te[j + 1];
+//				te[j + 1] = temp;
+//			}
+//		}
+//	}
+//
+//	printf("%d", re[z - 1] + te[t - 1]);
+//	return 0; // 같은 수에서 문제 발생 4031
+//}
+
+//int i, n, m1=0, m2=0;
+//int main(void)
+//{
+//	for (i = 0; i < 7; i++) {
+//		scanf("%d", &n);
+//		if (n % 2 == 0) {
+//			if (m1 < n)m1 = n;
+//		}
+//		else {
+//			if (m2 < n) m2 = n;
+//		}
+//	}
+//
+//	printf("%d", m1 + m2);
 //}
