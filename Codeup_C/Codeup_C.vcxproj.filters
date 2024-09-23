@@ -309,8 +309,8 @@
     <ClCompile Include="17_01%284011,13,16,21,26,31%29.c">
       <Filter>소스 파일\17st_week</Filter>
     </ClCompile>
-    <ClCompile Include="17_02.c">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="17_02%284036,41,51,56,4501,4506%29.c">
+      <Filter>소스 파일\17st_week</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
