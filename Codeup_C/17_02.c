@@ -26,23 +26,24 @@
 //}
 
 //int main() {
-//    int num[7];
-//    int i, j, temp;
+//    float n = 5, sum = 0, s, e, t;
 //
-//    for (i = 0; i < 7; i++) {
-//        scanf("%d", &num[i]);
+//    while (n != 0) {
+//        n--;
+//        scanf("%f %f", &s, &e);
+//        t = e - s - 1;
+//        if (t <= 0.0) t = 0.0;
+//        if (t >= 4.0) t = 4.0;
+//        sum += (t / 0.5) * 5000;
 //    }
 //
-//    for (i = 0; i < 6; i++) {
-//        for (j = 0; j < 6 - i; j++) {
-//            if (num[j] > num[j + 1]) {
-//                temp = num[j];
-//                num[j] = num[j + 1];
-//                num[j + 1] = temp;
-//            }
-//        }
+//    if (sum >= 15 * 10000) {
+//        sum = sum * 0.95;
+//    }
+//    else if (sum <= 5 * 10000) {
+//        sum = sum * 1.05;
 //    }
 //
-//    printf("%d\n%d", num[6], num[5]);
-//    return 0; // 4501 백설공주와 난쟁이
+//    printf("%.0f", sum);
+//    return 0; // 4051 시간 외 근무 수당
 //}
