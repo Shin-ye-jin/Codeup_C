@@ -209,6 +209,7 @@
     <ClCompile Include="16_05%28관계기반%29.c" />
     <ClCompile Include="17_01%284011,13,16,21,26,31%29.c" />
     <ClCompile Include="17_02%284036,41,51,56,4501,4506%29.c" />
+    <ClCompile Include="17_03%284531,61,66%29.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
