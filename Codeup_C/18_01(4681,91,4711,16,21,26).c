@@ -33,3 +33,28 @@
 //    printf("%d", max);
 //    return 0; // 4711 지능형 기차
 //}
+
+//int main() {
+//    int a, b, i, max, cnt;
+//    scanf("%d %d", &a, &b);
+//    max = b, cnt = b;
+//
+//    for (i = 0; i < 9; i++) {
+//        scanf("%d %d", &a, &b);
+//        cnt = cnt - a + b;
+//        if (max < cnt) max = cnt;
+//    }
+//
+//    printf("%d", max);
+//    return 0; // 4716 지능형 기차2
+//}
+
+//int main(void)
+//{
+//	return 0; //4721 투표
+//}
+
+//int main(void)
+//{
+//	return 0; // 4726 수열
+//}
