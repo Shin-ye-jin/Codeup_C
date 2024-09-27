@@ -76,3 +76,31 @@
 //{
 //	return 0;// 4751 아시아 정보올림피아드
 //}
+
+//#include<string.h>
+//int main() {
+//    char m[50];
+//    int res = 10;
+//    scanf("%s", m);
+//    for (int i = 1; i < strlen(m); i++) {
+//        if (m[i] == m[i - 1]) {
+//            res += 5;
+//        }
+//        else res += 10;
+//    }
+//
+//    printf("%d", res);
+//    return 0; // 4771 그릇
+//}
+
+//int n;
+//int main() {
+//    scanf("%d", &n);
+//    printf("%c%c\n", 'A' + (n + 8) % 12, '0' + (n + 6) % 10);
+//    return 0; // 4776 간지
+//}
+
+//int main(void)
+//{
+//	return 0; // 4891 행복
+//}
